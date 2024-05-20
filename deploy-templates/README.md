@@ -73,7 +73,6 @@ PostgreSQL (Postgres) is an open source object-relational database known for rel
 | image.digest | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | image.pullSecrets | list | `[]` |  |
-| image.registry | string | `"docker.io"` |  |
 | image.repository | string | `"bitnami/postgresql"` |  |
 | image.tag | string | `"15.2.0-debian-11-r14"` |  |
 | kubeVersion | string | `""` |  |
@@ -103,7 +102,6 @@ PostgreSQL (Postgres) is an open source object-relational database known for rel
 | metrics.image.digest | string | `""` |  |
 | metrics.image.pullPolicy | string | `"IfNotPresent"` |  |
 | metrics.image.pullSecrets | list | `[]` |  |
-| metrics.image.registry | string | `"docker.io"` |  |
 | metrics.image.repository | string | `"bitnami/postgres-exporter"` |  |
 | metrics.image.tag | string | `"0.12.0-debian-11-r71"` |  |
 | metrics.livenessProbe.enabled | bool | `true` |  |
@@ -373,7 +371,6 @@ PostgreSQL (Postgres) is an open source object-relational database known for rel
 | volumePermissions.image.digest | string | `""` |  |
 | volumePermissions.image.pullPolicy | string | `"IfNotPresent"` |  |
 | volumePermissions.image.pullSecrets | list | `[]` |  |
-| volumePermissions.image.registry | string | `"docker.io"` |  |
 | volumePermissions.image.repository | string | `"bitnami/bitnami-shell"` |  |
 | volumePermissions.image.tag | string | `"11-debian-11-r99"` |  |
 | volumePermissions.resources.limits | object | `{}` |  |
